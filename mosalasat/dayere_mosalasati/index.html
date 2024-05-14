@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="/dist/reset.css">
+		<link rel="stylesheet" href="/dist/reveal.css">
+		<link rel="stylesheet" href="/dist/theme/black.css">
+		<link rel="stylesheet" href="/dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p dir="rtl">وقتی با زاویه‌هایی غیر از زاویه‌های بین 0 تا 90 درجه سر و کار داریم برای نسبت‌های مثلثاتی این توابع به تعریفی دیگر به غیر از نسبت اضلاع مثلث قائم‌الزاویه نیاز داریم.</p>
+				</section>
+				<section>
+					<video class="r-fit-text" controls data-src="/media/videos/Animation_vs._Math_sin_and_cos.mp4"></video>	
+				</section>
+				<section>
+					<p dir="rtl"><b>دایره مثلثاتی</b> در این موقعیت به ما می‌تواند کمک کند. در دایره مثلثاتی ما می‌توانیم به ازای تمام اعداد حقیقی نسبت‌های مثلثاتی را باز تعریف کنیم.</p>
+				</section>
+				<section class="fv-background" fv-video="videos/dayere_mosalasati.mp4" fv-playback-info="videos/dayere_mosalasati.json">
+					
+				</section>
+				<section>
+					<section>
+						
+						<div class="canvas-wrapper">
+							<canvas class="canvas" id="canvas" >
+						</div>
+						
+					</section>
+					<section>
+						<video class="r-fit-text" controls data-src="/media/videos/y2mate.com - Trig Visualized One Diagram to Rule them All six trig functions in one diagram_1440p.mp4"></video>	
+					</section>
+					
+					<section>
+						<a href="/mosalasat/dayere_mosalasati/ci.html" target="_blank" >لینک صفحه کامل دایره مثلثاتی</a>
+					</section>
+				</section>
+				</div>
+		</div>
+
+		<script src="/dist/reveal.js"></script>
+		<script src="/plugin/notes/notes.js"></script>
+		<script src="/plugin/markdown/markdown.js"></script>
+		<script src="/plugin/highlight/highlight.js"></script>
+		<script src="/plugin/manim/manim.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				autoPlayMedia: false,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealManim ]
+			});
+		</script>
+		<script src="trigonoparty.js?v=anticache.17"></script>
+		<script src="ui.js?v=anticache.16"></script>
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+	</body>
+</html>
